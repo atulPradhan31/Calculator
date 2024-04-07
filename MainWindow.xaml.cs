@@ -127,6 +127,8 @@ namespace Calculator
         private void ButtonAC_Click(object sender, RoutedEventArgs e)
         {
             resultLabel.Content = "0";
+            result = 0;
+            lastNumber = 0
         }
 
         private void OperationButton_Click(object sender, RoutedEventArgs e)
