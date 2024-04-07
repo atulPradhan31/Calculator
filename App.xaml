@@ -8,7 +8,7 @@
         <SolidColorBrush x:Key="operatorColour" Color="Orange"/>
         <SolidColorBrush x:Key="foregroundColour" Color="White"/>
 
-        <Style TargetType="Button">
+        <Style TargetType="Button" x:Key="Generic">
             <Setter Property="Foreground" Value="{StaticResource foregroundColour}"/>
             <Setter Property="Background" Value="{StaticResource numberColour}"/>
             <Setter Property="Margin" Value="5"/>
@@ -18,5 +18,19 @@
         <Style TargetType="Label">
             <Setter Property="FontSize" Value="60"/>
         </Style>
+
+        <Style TargetType="Button" x:Key="numbersButtons" BasedOn="{StaticResource Generic}">
+        </Style>
+
+        <Style TargetType="Button" x:Key="operatorButtons" BasedOn="{StaticResource Generic}">
+            <Setter Property="Background" Value="{StaticResource operatorColour}"/>
+        </Style>
+
+        <Style TargetType="Button" x:Key="additionalButtons" BasedOn="{StaticResource Generic}">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="DimGray"/>
+
+        </Style>
+
     </Application.Resources>
 </Application>

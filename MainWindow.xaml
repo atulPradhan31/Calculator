@@ -29,79 +29,93 @@
                VerticalAlignment="Bottom"
                Grid.ColumnSpan="4"/>
         <Button x:Name="buttonAC" Content="AC"
+                Style="{StaticResource additionalButtons}"
                 Foreground="Black"
                 Grid.Row="1"/>
         <Button x:Name="buttonNegative" Content="+/-"
+                Style="{StaticResource additionalButtons}"
                 Foreground="Black"
                 Grid.Row="1"
                 Grid.Column="1"/>
         <Button x:Name="buttonPercentage" Content="%"
+                Style="{StaticResource additionalButtons}"
                 Foreground="Black"
                 Click="PercentageButton_Clicks"
                 Grid.Row="1"
                 Grid.Column="2"/>
         <Button x:Name="buttonDivision" Content="/"
-                Background="{StaticResource operatorColour}"
+                Style="{StaticResource operatorButtons}"
                 Click="OperationButton_Click"
                 Grid.Row="1"
                 Grid.Column="3"/>
 
         <Button x:Name="buttonSeven" Content="7"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="2"/>
         <Button x:Name="buttonEight" Content="8"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="2"
                 Grid.Column="1"/>
         <Button x:Name="buttonNine" Content="9"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="2"
                 Grid.Column="2"/>
         <Button x:Name="buttonMultiply" Content="*"
-                Background="{StaticResource operatorColour}"
+                Style="{StaticResource operatorButtons}"
                 Click="OperationButton_Click"
                 Grid.Row="2"
                 Grid.Column="3"/>
 
         <Button x:Name="buttonFour" Content="4"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="3"/>
         <Button x:Name="buttonFive" Content="5"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="3"
                 Grid.Column="1"/>
         <Button x:Name="buttonSix" Content="6"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="3"
                 Grid.Column="2"/>
         <Button x:Name="buttonSubtract" Content="-"
-                Background="{StaticResource operatorColour}"
+                Style="{StaticResource operatorButtons}"
                 Click="OperationButton_Click"
                 Grid.Row="3"
                 Grid.Column="3"/>
 
         <Button x:Name="buttonOne" Content="1"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="4"/>
         <Button x:Name="buttonTwo" Content="2"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="4"
                 Grid.Column="1"/>
         <Button x:Name="buttonThree" Content="3"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="4"
                 Grid.Column="2"/>
         <Button x:Name="buttonPlus" Content="+"
-                Background="{StaticResource operatorColour}"
+                Style="{StaticResource operatorButtons}"
                 Click="OperationButton_Click"
                 Grid.Row="4"
                 Grid.Column="3"/>
 
         <Button x:Name="buttonZero" Content="0"
+                Style="{StaticResource numbersButtons}"
                 Click="NumberButton_Click"
                 Grid.Row="5"
                 Grid.ColumnSpan="2"/>
         <Button x:Name="buttonDecimal" Content="."
+                Style="{StaticResource numbersButtons}"
                 Click="pointButton_Click"
                 Grid.Row="5"
                 Grid.Column="2"/>
